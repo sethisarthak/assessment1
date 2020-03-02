@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script>
+        function change_text() {
+        var x = document.getElementById("one");
+        if (x.innerHTML === "Hello!") {
+        x.innerHTML = "Well done!";
+        } else {
+        x.innerHTML = "Hello!";
+        }
+}
+    </script>
+</head>
+<body>
+<center>
+        <button onclick="change_text()">Change</button>
+
+        <div id="one">Hello!</div>
+</center>
+</body>
+</html>
